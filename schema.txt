@@ -1,0 +1,22 @@
+
+let USER_ID = 1;
+let ORGANIZATION_ID = 1;
+let BOARD_ID = 1;
+let ISSUES_ID = 1;
+
+const USERS =[];
+
+const ORGANISATIONS =[];
+
+const BOARDS =[{
+    id:1,
+    title:"100xboard",
+    organizationId :1
+}];
+
+const ISSUES = [{
+    id: 1,
+    title: "first issue",
+    boardID: 1,
+    satate: "IN_PROGRESS"
+}];
